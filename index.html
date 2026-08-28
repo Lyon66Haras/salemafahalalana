@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SALEMA FAHALALANA - Centre de Formation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="#" class="logo">
+
+            <img src="assets/images/sf_logo.png" alt="Logo SF">
+
+            <div class="logo-text">
+
+                <strong>
+                    SALEMA <span>FAHALALANA</span>
+                </strong>
+
+                <small>
+                    CENTRE DE FORMATION
+                </small>
+
+            </div>
+
+        </a>
+
+        <nav aria-label="Navigation principale">
+            <ul>
+
+                <li>
+                    <a href="#accueil" class="active">
+                        Accueil
+                    </a>
+                </li>
+
+                <li class="formations-menu">
+                    <button type="button" class="formations-toggle" aria-expanded="false" aria-controls="formations-list">
+                        Formations <i class="bi bi-chevron-down nav-chevron" aria-hidden="true"></i>
+                    </button>
+                    <ul class="formations-list" id="formations-list">
+                        <li><a href="formations.html#marketing">Marketing</a></li>
+                        <li><a href="formations.html#ressource-humaine">Ressource Humaine</a></li>
+                        <li><a href="formations.html#leadership">Leadership</a></li>
+                        <li><a href="formations.html#finance">Finance</a></li>
+                        <li><a href="formations.html#management">Management</a></li>
+                        <li><a href="formations.html#developpement-personnel">Développement Personnel</a></li>
+                        <li><a href="formations.html#comptabilite">Comptabilité</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <button class="mobile-menu" type="button" aria-label="Ouvrir le menu" onclick="toggleMenu()">
+            <i class="bi bi-list" aria-hidden="true"></i>
+            <span class="sr-only">Ouvrir le menu</span>
+        </button>
+
+
+        <button type="button" class="btn btn-gold" id="open-registration" aria-haspopup="dialog" aria-controls="registration-modal">
+            INSCRIPTION
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="accueil">
+
+    <div class="hero-slides" aria-hidden="true">
+        <div class="hero-slide is-active" style="background-image: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1800&q=85');"></div>
+    </div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <div class="badge">
+                CENTRE DE FORMATION
+            </div>
+
+            <h1>
+                Développez vos compétences,
+                <span>construisez votre avenir.</span>
+            </h1>
+
+            <p class="biblical-principle">
+                "Sambatra izay olona mahita fahendrena sy izay olona mahazo fahalalana.
+                Fa ny fandrantoana azy dia tsara noho ny fandrantoana volafotsy.
+                Ary ny tombom-barotra aminy dia mihoatra noho ny volamena tsara."
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#formations"
+                   class="btn btn-gold">
+
+                    DÉCOUVRIR NOS FORMATIONS
+                    <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="hero-next" type="button" aria-label="Image suivante" title="Image suivante">
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+    </button>
+
+</section>
+
+
+
+<!-- =========================
+     AVANTAGES
+========================= -->
+
+<section id="formation">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>
+                Apprenez à votre <span>rythme</span>
+            </h2>
+
+            <p>
+                Une expérience de formation pensée
+                pour accompagner chaque apprenant.
+            </p>
+
+        </div>
+
+
+        <div class="advantages">
+
+
+            <div class="advantage">
+
+                <div class="advantage-icon">
+                    <i class="bi bi-laptop"></i>
+                </div>
+
+                <h3>
+                    Formations en ligne
+                </h3>
+
+                <p>
+                    Apprenez depuis n'importe où
+                    et à votre propre rythme.
+                </p>
+
+            </div>
+
+
+            <div class="advantage">
+
+                <div class="advantage-icon">
+                    <i class="bi bi-person-workspace"></i>
+                </div>
+
+                <h3>
+                    Formateurs experts
+                </h3>
+
+                <p>
+                    Des professionnels pour vous
+                    accompagner dans votre parcours.
+                </p>
+
+            </div>
+
+
+            <div class="advantage">
+
+                <div class="advantage-icon">
+                    <i class="bi bi-collection"></i>
+                </div>
+
+                <h3>
+                    Contenu de qualité
+                </h3>
+
+                <p>
+                    Des cours clairs, pratiques
+                    et adaptés aux objectifs.
+                </p>
+
+            </div>
+
+
+            <div class="advantage">
+
+                <div class="advantage-icon">
+                    <i class="bi bi-award"></i>
+                </div>
+
+                <h3>
+                    Accompagnement
+                </h3>
+
+                <p>
+                    Un suivi personnalisé
+                    pour favoriser votre réussite.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     FORMATIONS
+========================= -->
+
+<section class="formations" id="formations">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>
+                Nos formations <span>populaires</span>
+            </h2>
+
+            <p>
+                Découvrez les formations proposées
+                par SALEMA FAHALALANA.
+            </p>
+
+        </div>
+
+
+        <div class="formation-grid">
+
+
+            <!-- LEADERSHIP -->
+
+            <div class="course">
+
+                <div class="course-image python">
+                    LEADERSHIP
+                </div>
+
+                <div class="course-content">
+
+                    <h3>
+                        Formation en Leadership
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★★ 4.8
+                    </div>
+
+                    <div class="course-info">
+                        <span><i class="bi bi-laptop" aria-hidden="true"></i> En ligne</span>
+                        <span><i class="bi bi-clock" aria-hidden="true"></i> 20 heures</span>
+                    </div>
+
+                    <div class="price">
+                        120 000 Ar
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- MARKETING -->
+
+            <div class="course">
+
+                <div class="course-image web">
+                    MARKETING
+                </div>
+
+                <div class="course-content">
+
+                    <h3>
+                        Marketing digital
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★★ 4.7
+                    </div>
+
+                    <div class="course-info">
+                        <span><i class="bi bi-laptop" aria-hidden="true"></i> En ligne</span>
+                        <span><i class="bi bi-clock" aria-hidden="true"></i> 30 heures</span>
+                    </div>
+
+                    <div class="price">
+                        150 000 Ar
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FINANCE -->
+
+            <div class="course">
+
+                <div class="course-image excel">
+                    FINANCE
+                </div>
+
+                <div class="course-content">
+
+                    <h3>
+                        Gestion financière
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★☆ 4.6
+                    </div>
+
+                    <div class="course-info">
+                        <span><i class="bi bi-laptop" aria-hidden="true"></i> En ligne</span>
+                        <span><i class="bi bi-clock" aria-hidden="true"></i> 15 heures</span>
+                    </div>
+
+                    <div class="price">
+                        100 000 Ar
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RH -->
+
+            <div class="course">
+
+                <div class="course-image design">
+                    RESSOURCE HUMAINE
+                </div>
+
+                <div class="course-content">
+
+                    <h3>
+                        Gestion des ressources humaines
+                    </h3>
+
+                    <div class="rating">
+                        ★★★★★ 4.9
+                    </div>
+
+                    <div class="course-info">
+                        <span><i class="bi bi-laptop" aria-hidden="true"></i> En ligne</span>
+                        <span><i class="bi bi-clock" aria-hidden="true"></i> 25 heures</span>
+                    </div>
+
+                    <div class="price">
+                        130 000 Ar
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     POURQUOI NOUS
+========================= -->
+
+<section class="why" id="apropos">
+
+    <div class="container why-grid">
+
+
+        <div class="why-image"></div>
+
+
+        <div class="why-content">
+
+            <h2>
+                Pourquoi choisir
+                <span>SALEMA FAHALALANA ?</span>
+            </h2>
+
+            <p>
+                Notre objectif est de proposer une
+                formation pratique et accessible,
+                permettant à chaque apprenant de
+                développer ses compétences.
+            </p>
+
+
+            <ul class="why-list">
+
+                <li>
+
+                    <div class="check">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>
+                            Méthode pratique
+                        </strong>
+
+                        <p>
+                            Apprenez en travaillant
+                            sur des cas réels.
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <div class="check">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>
+                            Flexibilité
+                        </strong>
+
+                        <p>
+                            Formez-vous quand vous
+                            voulez et où vous voulez.
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <div class="check">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>
+                            Certificats
+                        </strong>
+
+                        <p>
+                            Valorisez vos nouvelles
+                            compétences.
+                        </p>
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <div class="check">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>
+                            Accompagnement
+                        </strong>
+
+                        <p>
+                            Un suivi pendant votre
+                            parcours de formation.
+                        </p>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="why-quote-block">
+            <p class="why-quote">
+                « Instruis le sage, et il deviendra plus sage ; fais connaître
+                la connaissance au juste, et il augmentera en savoir. »
+            </p>
+            <!-- <span class="why-reference">— Proverbes 9:9</span> -->
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     CTA
+========================= -->
+
+<section class="cta" id="inscription">
+
+    <div class="container">
+
+        <h2>
+            Prêt à développer
+            <span>vos compétences ?</span>
+        </h2>
+
+        <p>
+            Rejoignez SALEMA FAHALALANA
+            et commencez votre parcours de formation.
+        </p>
+
+        <a href="https://www.facebook.com/profile.php?id=100064105414318"
+           class="btn btn-gold">
+
+            COMMENCER MAINTENANT
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer id="contact">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+
+            <div>
+
+                <h3>
+                    SALEMA FAHALALANA
+                </h3>
+
+                <p>
+                    Centre de formation proposant
+                    des formations adaptées aux besoins
+                    des apprenants.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Navigation
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#accueil">
+                            Accueil
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#formations">
+                            Formations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#apropos">
+                            À propos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Apprendre
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            Cours en ligne
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Vidéos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Exercices
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Certificats
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <i class="bi bi-telephone-fill"></i> 032 46 515 02 / 034 83 204 03 
+                    </li>
+
+                    <li>
+                        <i class="bi bi-envelope-fill"></i> salemafahalalana@gmail.com
+                    </li>
+
+                    <li>
+                        <i class="bi bi-geo-alt-fill"></i> Ambohimiandra près de CEG
+                    </li>
+
+                    <li>
+                        <i class="bi bi-facebook"></i> Salema fahalalana
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 SALEMA FAHALALANA —
+            Centre de Formation.
+            Tous droits réservés.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<div class="registration-modal" id="registration-modal" hidden>
+    <div class="registration-dialog" role="dialog" aria-modal="true" aria-labelledby="registration-title">
+        <div class="registration-header">
+            <div>
+                <span class="registration-kicker">SALEMA FAHALALANA</span>
+                <h2 id="registration-title">Formulaire d'inscription</h2>
+                <p>Renseignez vos informations pour préparer votre parcours.</p>
+            </div>
+            <button type="button" class="registration-close" id="close-registration" aria-label="Fermer la fenêtre">&times;</button>
+        </div>
+
+        <form id="registration-form">
+            <div class="registration-fields">
+                <label>
+                    Nom
+                    <input type="text" name="nom" autocomplete="family-name" required>
+                </label>
+                <label>
+                    Prénom
+                    <input type="text" name="prenom" autocomplete="given-name" required>
+                </label>
+                <fieldset class="registration-choice">
+                    <legend>Sexe</legend>
+                    <label><input type="radio" name="sexe" value="Femme" required> Femme</label>
+                    <label><input type="radio" name="sexe" value="Homme"> Homme</label>
+                    <label><input type="radio" name="sexe" value="Autre"> Autre</label>
+                </fieldset>
+                <label>
+                    Date de naissance
+                    <input type="date" name="date-naissance" autocomplete="bday" required>
+                </label>
+                <label class="registration-full">
+                    Adresse
+                    <input type="text" name="adresse" autocomplete="street-address" required>
+                </label>
+                <label>
+                    Numéro de téléphone
+                    <input type="tel" name="telephone" autocomplete="tel" inputmode="tel" required>
+                </label>
+                <label>
+                    Adresse email
+                    <input type="email" name="email" autocomplete="email" required>
+                </label>
+                <label class="registration-full">
+                    Type de formation
+                    <select name="formation" required>
+                        <option value="" selected disabled>Choisissez une formation</option>
+                        <option value="presentielle">Formation en présentiel</option>
+                        <option value="individuelle">Formation individuelle</option>
+                        <option value="groupe">Atelier par groupe</option>
+                        <option value="en-ligne">Formation en ligne</option>
+                    </select>
+                </label>
+                <label class="registration-full">
+                    Date du rendez-vous <span class="optional">(facultatif)</span>
+                    <input type="datetime-local" name="rendez-vous">
+                </label>
+            </div>
+
+            <div class="registration-actions">
+                <button type="button" class="registration-cancel" id="cancel-registration">Annuler</button>
+                <button type="submit" class="btn btn-gold">Envoyer l'inscription</button>
+            </div>
+            <p class="registration-success" id="registration-success" role="status" hidden>Votre demande d'inscription a bien été enregistrée.</p>
+            <div class="registration-record" id="registration-record" hidden>
+                <h3>Votre enregistrement</h3>
+                <p class="registration-location">Enregistré dans ce navigateur, sur cet appareil.</p>
+                <dl id="registration-record-details"></dl>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script>
+
+function toggleMenu() {
+
+    const menu = document.querySelector("nav ul");
+
+    if (menu.style.display === "flex") {
+
+        menu.style.display = "none";
+
+    } else {
+
+        menu.style.display = "flex";
+
+        menu.style.flexDirection = "column";
+
+        menu.style.position = "absolute";
+
+        menu.style.top = "70px";
+
+        menu.style.left = "0";
+
+        menu.style.right = "0";
+
+        menu.style.background = "#080808";
+
+        menu.style.padding = "20px";
+
+    }
+
+}
+
+function initFormationsMenu() {
+
+    const toggle = document.querySelector(".formations-toggle");
+    const list = document.querySelector("#formations-list");
+
+    if (!toggle || !list) {
+        return;
+    }
+
+    function closeFormationsMenu() {
+        list.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+    }
+
+    toggle.addEventListener("click", () => {
+        const isOpen = list.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!event.target.closest(".formations-menu")) {
+            closeFormationsMenu();
+        }
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            closeFormationsMenu();
+        }
+    });
+}
+
+function initHeroCarousel() {
+
+    const slides = Array.from(document.querySelectorAll(".hero-slide"));
+    const nextButton = document.querySelector(".hero-next");
+
+    if (slides.length < 2 || !nextButton) {
+        return;
+    }
+
+    let activeIndex = slides.findIndex((slide) => slide.classList.contains("is-active"));
+
+    if (activeIndex < 0) {
+        activeIndex = 0;
+        slides[activeIndex].classList.add("is-active");
+    }
+
+    function showNextSlide() {
+        const nextIndex = (activeIndex + 1) % slides.length;
+        slides[activeIndex].classList.remove("is-active");
+        slides[activeIndex].classList.add("is-previous");
+        slides[nextIndex].classList.remove("is-previous");
+        slides[nextIndex].classList.add("is-active");
+
+        window.setTimeout(() => {
+            slides[activeIndex].classList.remove("is-previous");
+        }, 1200);
+
+        activeIndex = nextIndex;
+    }
+
+    nextButton.addEventListener("click", showNextSlide);
+
+    window.setInterval(showNextSlide, 5000);
+}
+
+function initEventsCarousel() {
+
+    const cards = Array.from(document.querySelectorAll(".events-grid > a.event-card"));
+
+    if (!cards.length) {
+        return;
+    }
+
+    function showRandomGroup() {
+
+        const shuffledCards = [...cards];
+
+        for (let index = shuffledCards.length - 1; index > 0; index -= 1) {
+            const randomIndex = Math.floor(Math.random() * (index + 1));
+            [shuffledCards[index], shuffledCards[randomIndex]] = [shuffledCards[randomIndex], shuffledCards[index]];
+        }
+
+        const visibleCards = shuffledCards.slice(0, 3);
+
+        cards.forEach((card) => {
+            card.classList.toggle("is-current", visibleCards.includes(card));
+        });
+
+        visibleCards.forEach((card) => {
+            card.parentElement.append(card);
+        });
+    }
+
+    showRandomGroup();
+
+    window.setInterval(() => {
+        showRandomGroup();
+    }, 5000);
+
+}
+
+// function initRegistrationModal() {
+
+//     const modal = document.querySelector("#registration-modal");
+//     const openButton = document.querySelector("#open-registration");
+//     const closeButton = document.querySelector("#close-registration");
+//     const cancelButton = document.querySelector("#cancel-registration");
+//     const form = document.querySelector("#registration-form");
+//     const successMessage = document.querySelector("#registration-success");
+//     const record = document.querySelector("#registration-record");
+//     const recordDetails = document.querySelector("#registration-record-details");
+
+//     if (!modal || !openButton || !closeButton || !cancelButton || !form) {
+//         return;
+//     }
+
+//     function closeModal() {
+//         modal.hidden = true;
+//         document.body.classList.remove("modal-open");
+//         openButton.focus();
+//     }
+
+//     openButton.addEventListener("click", () => {
+//         modal.hidden = false;
+//         document.body.classList.add("modal-open");
+//         successMessage.hidden = true;
+//         record.hidden = true;
+//         window.setTimeout(() => form.querySelector("input")?.focus(), 0);
+//     });
+
+//     closeButton.addEventListener("click", closeModal);
+//     cancelButton.addEventListener("click", closeModal);
+//     modal.addEventListener("click", (event) => {
+//         if (event.target === modal) {
+//             closeModal();
+//         }
+//     });
+//     document.addEventListener("keydown", (event) => {
+//         if (event.key === "Escape" && !modal.hidden) {
+//             closeModal();
+//         }
+//     });
+//     form.addEventListener("submit", (event) => {
+//         event.preventDefault();
+//         const formData = new FormData(form);
+//         const registration = Object.fromEntries(formData.entries());
+//         const registrations = JSON.parse(localStorage.getItem("salema-inscriptions") || "[]");
+//         registrations.push({ ...registration, dateEnregistrement: new Date().toISOString() });
+//         localStorage.setItem("salema-inscriptions", JSON.stringify(registrations));
+
+//         const labels = {
+//             nom: "Nom",
+//             prenom: "Prénom",
+//             sexe: "Sexe",
+//             "date-naissance": "Date de naissance",
+//             adresse: "Adresse",
+//             telephone: "Téléphone",
+//             email: "Email",
+//             formation: "Formation",
+//             "rendez-vous": "Rendez-vous"
+//         };
+//         recordDetails.replaceChildren();
+//         Object.entries(registration).forEach(([name, value]) => {
+//             const term = document.createElement("dt");
+//             const description = document.createElement("dd");
+//             term.textContent = labels[name] || name;
+//             description.textContent = value || "Non renseigné";
+//             recordDetails.append(term, description);
+//         });
+
+//         successMessage.hidden = false;
+//         record.hidden = false;
+//         form.reset();
+//     });
+// }
+
+function initRegistrationModal() {
+
+    const modal = document.querySelector("#registration-modal");
+    const openButton = document.querySelector("#open-registration");
+    const closeButton = document.querySelector("#close-registration");
+    const cancelButton = document.querySelector("#cancel-registration");
+    const form = document.querySelector("#registration-form");
+    const successMessage = document.querySelector("#registration-success");
+    const record = document.querySelector("#registration-record");
+    const recordDetails = document.querySelector("#registration-record-details");
+
+    if (!modal || !openButton || !closeButton || !cancelButton || !form) {
+        return;
+    }
+
+    function closeModal() {
+        modal.hidden = true;
+        document.body.classList.remove("modal-open");
+        openButton.focus();
+    }
+
+    openButton.addEventListener("click", () => {
+        modal.hidden = false;
+        document.body.classList.add("modal-open");
+        successMessage.hidden = true;
+        record.hidden = true;
+
+        window.setTimeout(() => {
+            form.querySelector("input")?.focus();
+        }, 0);
+    });
+
+    closeButton.addEventListener("click", closeModal);
+    cancelButton.addEventListener("click", closeModal);
+
+    modal.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !modal.hidden) {
+            closeModal();
+        }
+    });
+
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const registration = Object.fromEntries(formData.entries());
+
+        // Enregistrement local
+        const registrations = JSON.parse(
+            localStorage.getItem("salema-inscriptions") || "[]"
+        );
+
+        registrations.push({
+            ...registration,
+            dateEnregistrement: new Date().toISOString()
+        });
+
+        localStorage.setItem(
+            "salema-inscriptions",
+            JSON.stringify(registrations)
+        );
+
+        // Labels
+        const labels = {
+            nom: "Nom",
+            prenom: "Prénom",
+            sexe: "Sexe",
+            "date-naissance": "Date de naissance",
+            adresse: "Adresse",
+            telephone: "Téléphone",
+            email: "Email",
+            formation: "Formation",
+            "rendez-vous": "Rendez-vous"
+        };
+
+        // Affichage de l'enregistrement
+        recordDetails.replaceChildren();
+
+        Object.entries(registration).forEach(([name, value]) => {
+
+            const term = document.createElement("dt");
+            const description = document.createElement("dd");
+
+            term.textContent = labels[name] || name;
+            description.textContent = value || "Non renseigné";
+
+            recordDetails.append(term, description);
+        });
+
+        // Création du message Messenger
+        const message = `Bonjour, je souhaite m'inscrire à une formation.
+
+Nom : ${registration.nom}
+Prénom : ${registration.prenom}
+Sexe : ${registration.sexe}
+Date de naissance : ${registration["date-naissance"]}
+Adresse : ${registration.adresse}
+Téléphone : ${registration.telephone}
+Email : ${registration.email}
+Formation : ${registration.formation}
+Rendez-vous : ${registration["rendez-vous"] || "Non renseigné"}
+
+Merci.`;
+
+        // Copier le message
+        try {
+            await navigator.clipboard.writeText(message);
+
+            alert(
+                "Votre inscription est prête. Le message a été copié. " +
+                "Messenger va s'ouvrir. Collez le message puis envoyez-le."
+            );
+
+        } catch (error) {
+
+            alert(
+                "Messenger va s'ouvrir. Copiez vos informations avant de les envoyer."
+            );
+        }
+
+        // Ouvrir Messenger
+        window.open(
+            "https://m.me/113724336684758",
+            "_blank"
+        );
+
+        // Message de succès
+        successMessage.textContent =
+            "Votre inscription est prête. Envoyez le message sur Messenger pour terminer.";
+
+        successMessage.hidden = false;
+        record.hidden = false;
+
+        // Réinitialiser le formulaire
+        form.reset();
+    });
+}
+function swapHomeSections() {
+
+    const events = document.querySelector(".events");
+    const advantages = document.querySelector("#formation");
+
+    if (events && advantages) {
+        events.before(advantages);
+    }
+
+}
+
+swapHomeSections();
+
+initHeroCarousel();
+
+initEventsCarousel();
+
+initRegistrationModal();
+
+initFormationsMenu();
+
+</script>
+
+
+</body>
+</html>
